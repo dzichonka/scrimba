@@ -5,20 +5,17 @@ body {
   background: #27292c;
   color: white;
 }
-h1 {
+.title {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-top: 30px;
 }
-ul {
-  text-align: left;
-}
-li {
+.list__elem {
   padding: 10px;
   text-align: left;
 }
-footer {
+.footer {
   position: fixed;
   bottom: 0;
   margin: 0 auto;
@@ -27,6 +24,6 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-a {
+.link {
   color: white;
 }
